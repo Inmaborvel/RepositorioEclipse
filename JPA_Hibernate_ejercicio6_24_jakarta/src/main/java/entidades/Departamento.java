@@ -40,10 +40,7 @@ public class Departamento implements Serializable{
 	@Column(name = "PRESU")
 	private Double presu;
 	
-	//3.4  Asociación unidireccional ONE to MANY sobre Departamento y Empleado.
-	/*LA ASOCIACIÓN SE PUEDE EXPRESAR ASÍ: en un depto hay muchos empleados y la columna de clave ajena en 
-	 * la tabla EMPLEADO es CODDEPTO*/
-	//	Esto crea dos tablas: EMPLEADO y DEPARTAMENTO y en EMPLEADO está la Clave foránea CODDEPTO
+	
 	 @OneToMany(targetEntity=Empleado.class)
 	 @JoinColumn(name = "CODDEPTO_FK") 
 	 private List<Empleado> empleados;	
