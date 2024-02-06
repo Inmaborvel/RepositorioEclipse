@@ -21,6 +21,8 @@ public class PlazaParking implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
+	//Añado nuevo comentario
+	
 	@Id
 	@Column(name = "NUMPLAZA", unique = true, nullable = false)
 	private String numPlaza; 
