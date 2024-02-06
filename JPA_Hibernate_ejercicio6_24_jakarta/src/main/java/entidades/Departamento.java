@@ -29,6 +29,8 @@ public class Departamento implements Serializable{
 	private static final long serialVersionUID = 1L;
 	public static final String BUSCAR_CODDEPT="Departamento.BUSCAR_CODDEPT";
 	public static final String ORDENAR_DESC_NOMBRE="Departamento.ORDENAR_DESC_NOMBRE";
+
+	//AÑADO COMENTARIO DESDE GITHUB
 	
 	@Id
 	@Column(name = "CODDEPT", unique = true, nullable = false)
