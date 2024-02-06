@@ -73,13 +73,6 @@ public class Test2_Consultas_JPQL {
 		System.out.println (dpf.buscarTodos().get(0).getProyectos());  //sin JPQL
 		
 		
-		/* Ejercicio 3:  Crea un método  que  devuelva todos los empleados del depto1 */
-		
-		
-		System.out.println( "**  Ejercicio 3 CONSULTAS: MOSTRAR LOS EMPLEADOS DEL DEPTO 1  **");
-		System.out.println (dpf.buscarTodos().get(0).getEmpleados()); //sin JPQL
-		System.out.println (dpf.buscarEmpleadosDeDpto(1)); //sin JPQL
-	
 		
 		
 		
